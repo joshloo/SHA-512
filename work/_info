@@ -1,0 +1,100 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/shA-512/ShA-512
+Esha_512_core
+Z1 w1624772215
+Z2 DPx4 work 11 sha_512_pkg 0 22 T[PGfUQTa<QN8K2VLeZk12
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z6 8C:/SHA-512/SHA-512/sha_512_core.vhdl
+Z7 FC:/SHA-512/SHA-512/sha_512_core.vhdl
+l0
+L39 1
+VP?K5@8bMUI^Pe49HfPHdF0
+!s100 QY31b>m`EGT_@^[S9^6^F1
+Z8 OV;C;2020.1;71
+32
+Z9 !s110 1624772638
+!i10b 1
+Z10 !s108 1624772638.000000
+Z11 !s90 -reportprogress|300|-work|work|C:/SHA-512/SHA-512/sha_512_core.vhdl|
+!s107 C:/SHA-512/SHA-512/sha_512_core.vhdl|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Asha_512_core_arch
+R2
+R3
+R4
+R5
+DEx4 work 12 sha_512_core 0 22 P?K5@8bMUI^Pe49HfPHdF0
+!i122 1
+l141
+L55 260
+VCoVNX@F70HkNjb[SD][F73
+!s100 B<VK`DR33T3G=H]ShWIbz1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+Z14 !s107 C:/SHA-512/SHA-512/sha_512_core.vhdl|
+!i113 1
+R12
+R13
+Psha_512_pkg
+R3
+R4
+R5
+!i122 0
+R1
+R0
+Z15 8C:/SHA-512/SHA-512/sha_512_pkg.vhdl
+Z16 FC:/SHA-512/SHA-512/sha_512_pkg.vhdl
+l0
+L33 1
+VT[PGfUQTa<QN8K2VLeZk12
+!s100 Fhz2X5NWR44meRC=GzUf53
+R8
+32
+b1
+Z17 !s110 1624772633
+!i10b 1
+Z18 !s108 1624772633.000000
+Z19 !s90 -reportprogress|300|-work|work|C:/SHA-512/SHA-512/sha_512_pkg.vhdl|
+Z20 !s107 C:/SHA-512/SHA-512/sha_512_pkg.vhdl|
+!i113 1
+R12
+R13
+Bbody
+R2
+R3
+R4
+R5
+!i122 0
+l0
+L71 1
+V12Td:P;_4WLB;8kM5[3fW1
+!s100 ]z8OgbU0aNg9=_P3Y9fKF3
+R8
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13

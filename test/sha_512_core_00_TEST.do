@@ -1,4 +1,5 @@
-//This file simulates hashing the message "abc", a message of 24 bits.
+// This file simulates hashing the message "abc", a message of 24 bits.
+// The output generated will be ddaf35a193617abacc417349ae20413112e6fa4e89a97ea20a9eeee64b55d39a2192992a274fc1a836ba3c23a3feebbd454d4423643ce80e2a9ac94fa54ca49f
 
 add wave -position insertpoint  \
 sim:/sha_512_core/clk
@@ -25,7 +26,7 @@ sim:/sha_512_core/HASH_02_COUNTER
 add wave -position insertpoint  \
 sim:/sha_512_core/HV
 add wave -position insertpoint  \
-sim:/sha_512_pkg/W
+sim:/sha_512_core/W
 
 add wave -position insertpoint  \
 sim:/sha_512_core/a
@@ -45,12 +46,12 @@ add wave -position insertpoint  \
 sim:/sha_512_core/h
 
 
-force -freeze sim:/clk 1 0, 0 {50 ns} -r 100
+force -freeze sim:/clk 1 0, 0 {50 ns} -r 100 ns
 force -freeze sim:/rst 1
 force -freeze sim:/n_blocks 1
-run 250
+run 250 
 force -freeze sim:/msg_block_in 1024'h6162638000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000018
 force -freeze sim:/sha_512_core/data_ready 1
-run 100
+run 26 us
 force -freeze sim:/sha_512_core/data_ready 0
-run 22500
+run 100 ns

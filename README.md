@@ -1,6 +1,6 @@
 # MIT License
 
-Copyright (c) 2017 dsaves
+Copyright (c) 2017 - 2021 dsaves, tunglun
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -29,3 +29,20 @@ SOFTWARE.
 # VHDL
  - The VHDL files assume you are compiling entities to a library named "dsaves".
  This was done to avoid naming collisions. Because libraries in VHDL are a virtual construct, you may have to work with other software you are using (eg. Modelsim, QuestaSim, Xilinx ISE, etc) to create the library "dsaves" and compile the design units to that library.  Alternatively, you can change the "dsaves" library to "work".
+
+# Steps
+ vlib work
+ 
+ vcom -reportprogress 300 -work work sha_512_pkg.vhdl
+ 
+ vcom -reportprogress 300 -work work sha_512_core.vhdl
+ 
+ vsim -gui work.sha_512_core
+ 
+ <execute the do files content>
+ 
+ to quit, run "quit -sim"
+ 
+ to restart simulation, run "restart -f"
+ 
+ 
